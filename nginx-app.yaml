@@ -6,7 +6,7 @@ spec:
   project: default
   source:
     repoURL: https://github.com/meetreks/gitops.git
-    targetRevision: main
+    targetRevision: HEAD
     path: /
     helm:
       values: |
