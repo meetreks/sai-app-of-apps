@@ -5,9 +5,9 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: https://github.com/meetreks/gitops
+    repoURL: https://github.com/meetreks/gitops.git
     targetRevision: main
-    path: templates
+    path: /
     helm:
       values: |
         message: "hello world"
