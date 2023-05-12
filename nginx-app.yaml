@@ -6,7 +6,7 @@ spec:
   project: default
   source:
     repoURL: https://github.com/meetreks/gitops.git
-    path: helm
+    path: /
   destination:
     server: https://kubernetes.default.svc
     namespace: default
