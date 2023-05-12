@@ -13,4 +13,4 @@ spec:
         message: "hello world"
   destination:
     server: https://kubernetes.default.svc
-    namespace: nginx
+    namespace: default
