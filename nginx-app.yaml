@@ -5,7 +5,7 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: https://github.com/meetreks/gitops.git
+    repoURL: https://github.com/meetreks/gitops
     targetRevision: HEAD
     path: /
     helm:
