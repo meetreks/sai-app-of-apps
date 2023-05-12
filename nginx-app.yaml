@@ -1,0 +1,16 @@
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: nginx-app
+spec:
+  project: default
+  source:
+    repoURL: <URL of the Nginx Helm Chart repository>
+    targetRevision: <desired chart version or branch>
+    path: <path to the Nginx Helm Chart within the repository>
+    helm:
+      values: |
+        message: "hello world"
+  destination:
+    server: https://kubernetes.default.svc
+    namespace: nginx
